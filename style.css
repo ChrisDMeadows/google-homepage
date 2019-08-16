@@ -1,0 +1,98 @@
+html {
+    box-sizing: inherit;
+}
+
+
+#logo {
+    text-align: center;
+    display: block;
+}
+
+#searchbar {
+    text-align: start;
+    font-family: 'Times New Roman', Times, serif;
+    border-image-repeat: stretch;
+    width: 650px;
+    font-size: 13px;
+    border-color: lightgray;
+    
+
+}
+#search {
+    text-align: center;
+        
+}
+
+#button {
+    width: 100px;
+    text-align: inherit;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#toolbar {
+    text-align: right;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    align-self: stretch;
+    cursor: pointer;
+    padding: 5px;
+    padding-right: 10px;
+    font-size: x-large
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px;
+}
+
+li a:hover {
+    cursor: pointer;
+    color: darkgreen;
+    
+    
+}
+
+#navbar {
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+#footer {
+    height: 50px;
+    background-color: lightgrey;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    text-align: right;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 15px;
+    padding-top: 15px;  
+
+}
+
+#settings {
+    color: black;
+    padding-left: 15px;
+}
+
+#privacy {
+    color: black;
+    padding-left: 15px;
+}
